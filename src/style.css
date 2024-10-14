@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(249, 247, 254);
+    font-family: "Roboto", sans-serif;
+}
+
+.Habesha-Kemis-page {
+    background-color: white;
+    max-width: 600px;
+    margin: 45px auto;
+    padding: 30px;
+    box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px;
+    border-radius: 16px;
+}
+
+.nav-container-new {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #1e1c18;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #9d7943;
+    background-color: #000000;
+}
+
+.logo {
+    max-height: 100px;
+    width: 100px;
+    border-radius: 7px;
+}
+
+.title {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #9d7943;
+    font-weight: 800;
+    margin-top: 20px;
+    font-size: 57px;
+}
+
+h2 {
+    text-align: center;
+    color: #9d7943;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.title {
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+.image-dress {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-control {
+    margin: 10px;
+    text-align: center;
+}
+.pic{
+   max-width: 100%;
+    height: auto;
+    margin-right: 5px;
+  
+}
+
+.view-button {
+    margin: auto;
+    color: #c0a901;
+    text-align: center;
+}
+
+.view-button button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid#c0a901;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.description-dress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-dress h2 {
+    color:#c0a901;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.description-dress p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.quality-dress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quality-dress p {
+    font-size: 10px;
+}
+
+.quality-dress img {
+    width: 200px;
+}
+.contact-button {
+    margin: auto;
+    color: #c0a901;
+    text-align: center;
+}
+
+.contact-button button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid#c0a901;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .Habesha-Kemis-page {
+        max-width: 100%;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .pic {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .description-dress {
+        flex-direction: column;
+    }
+
+    .description-dress h2 {
+        text-align: center;
+    }
+
+    .description-dress p {
+        text-align: center;
+    }
+
+    .quality-dress {
+        flex-direction: column;
+    }
+
+    .quality-dress p {
+        font-size: 14px;
+    }
+
+    .quality-dress img {
+        width: 100%;
+        height: auto;
+    }
+}
