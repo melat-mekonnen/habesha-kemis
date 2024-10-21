@@ -146,7 +146,7 @@ h2 {
 }
 .quality-dress img {
     width: 150px;
-      border-radius: 10px;
+    border-radius: 10px;
 }
 
 .logo-quality{
@@ -233,13 +233,16 @@ h2 {
         margin: 20px;
         padding: 15px;
     }
+    nav ul {
+     flex-direction: column;
+}
 
-    .pic {
-        width: 100%;
-        height: auto;
-        margin-right: 0;
-    }
+   .img-resize{
+    height:200px;
+    width:150px;
+    border-radius: 2px;;
 
+}
     .description-dress {
         flex-direction: column;
     }
@@ -266,6 +269,7 @@ h2 {
     }
     .footerNav ul{
         flex-direction: column;
+        text-align: center;
     } 
     .footerNav ul li{
         width:100%;
